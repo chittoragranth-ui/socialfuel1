@@ -40,7 +40,7 @@ export function Hero() {
         <motion.img
           key={index}
           src={slides[index]}
-          alt="Premium ITC Suites — luxury suite interior"
+          alt="ITC Suites — luxury suite interior"
           custom={direction}
           variants={variants}
           initial="enter"
@@ -78,7 +78,7 @@ export function Hero() {
           transition={{ delay: 0.8, duration: 1.1 }}
           className="font-serif text-5xl leading-[1.05] sm:text-6xl md:text-7xl lg:text-[88px]"
         >
-          Premium ITC Suites
+          ITC Suites
         </motion.h1>
 
         <motion.p

@@ -27,9 +27,9 @@ export function About() {
           className="md:col-span-7 md:pt-10"
         >
           <p className="text-lg font-light leading-relaxed text-muted-foreground md:text-xl">
-            Premium ITC Suites is a discreet collection of fully-appointed luxury suites
-            within Omaxe ITC, Alpha-2 — a quiet enclave above the city, moments from
-            everything that matters in Greater Noida.
+            ITC Suites is a discreet collection of fully-appointed luxury suites
+            within Omaxe India Trade Centre, Alpha-II Commercial Belt — a quiet enclave
+            above the city, moments from everything that matters in Greater Noida.
           </p>
           <p className="mt-6 text-base font-light leading-relaxed text-muted-foreground">
             Each suite is composed with warm interiors, considered lighting and
@@ -60,11 +60,12 @@ export function About() {
         className="mx-auto mt-24 max-w-7xl px-6 md:px-10"
       >
         <div className="relative aspect-[16/8] w-full overflow-hidden">
-          <img src={exteriorImg} alt="Omaxe ITC building exterior" className="h-full w-full object-cover" />
+          <img src={exteriorImg} alt="Omaxe India Trade Centre building exterior" className="h-full w-full object-cover" />
           <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
           <div className="absolute bottom-6 left-6 text-white md:bottom-10 md:left-10">
             <div className="text-[10px] uppercase tracking-[0.3em] text-gold">Address</div>
-            <div className="mt-2 font-serif text-2xl md:text-3xl">Omaxe ITC, Alpha-2, Greater Noida</div>
+            <div className="mt-2 font-serif text-2xl md:text-3xl">Omaxe India Trade Centre, Alpha-II Commercial Belt, Block I</div>
+            <div className="mt-1 text-sm font-light md:text-base">Sector Alpha II, Greater Noida, Brahmpur Rajraula Urf Nawada, Uttar Pradesh 201310</div>
           </div>
         </div>
       </motion.div>

@@ -88,10 +88,10 @@ export function Footer() {
     <footer className="bg-ink py-12 text-white/70">
       <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-6 px-6 md:flex-row md:px-10">
         <div className="text-center md:text-left">
-          <div className="font-serif text-lg text-white">Premium ITC Suites</div>
-          <div className="mt-1 text-[10px] uppercase tracking-[0.28em]">Omaxe ITC · Alpha-2 · Greater Noida</div>
+          <div className="font-serif text-lg text-white">ITC Suites</div>
+          <div className="mt-1 text-[10px] uppercase tracking-[0.28em]">Omaxe India Trade Centre · Sector Alpha II · Greater Noida 201310</div>
         </div>
-        <div className="text-[10px] uppercase tracking-[0.28em]">© {new Date().getFullYear()} Premium ITC Suites</div>
+        <div className="text-[10px] uppercase tracking-[0.28em]">© {new Date().getFullYear()} ITC Suites</div>
       </div>
     </footer>
   );

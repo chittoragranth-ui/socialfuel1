@@ -17,17 +17,21 @@ export function Location() {
               A quiet address,<br />perfectly placed.
             </h2>
             <p className="mt-6 text-sm font-light leading-relaxed text-muted-foreground">
-              Set within the Omaxe ITC Sector Alpha-II Commercial Belt — a refined
+              Set within Omaxe India Trade Centre, Alpha-II Commercial Belt — a refined
               address with metro, cafés, parks and the city centre minutes away.
             </p>
             <div className="mt-8 space-y-3 text-sm">
               <div className="flex gap-3">
                 <span className="text-gold">◆</span>
-                <span>Omaxe ITC, Sector Alpha-II Commercial Belt</span>
+                <span>Omaxe India Trade Centre, Alpha-II Commercial Belt, Block I</span>
               </div>
               <div className="flex gap-3">
                 <span className="text-gold">◆</span>
-                <span>Greater Noida — 201310, Uttar Pradesh</span>
+                <span>Sector Alpha II, Greater Noida</span>
+              </div>
+              <div className="flex gap-3">
+                <span className="text-gold">◆</span>
+                <span>Brahmpur Rajraula Urf Nawada, Uttar Pradesh 201310</span>
               </div>
               <div className="flex gap-3">
                 <span className="text-gold">◆</span>
@@ -45,8 +49,8 @@ export function Location() {
           >
             <div className="relative h-[420px] w-full overflow-hidden border border-border md:h-[500px]">
               <iframe
-                title="Omaxe ITC, Sector Alpha-II Commercial Belt, Greater Noida 201310"
-                src="https://www.google.com/maps?q=Omaxe+ITC+Sector+Alpha+II+Commercial+Belt+Greater+Noida+201310&output=embed"
+                title="Omaxe India Trade Centre, Alpha-II Commercial Belt, Block I, Sector Alpha II, Greater Noida, Brahmpur Rajraula Urf Nawada, Uttar Pradesh 201310"
+                src="https://www.google.com/maps?q=Omaxe+India+Trade+Centre%2C+Alpha-II+Commercial+Belt%2C+Block+I%2C+Sector+Alpha+II%2C+Greater+Noida%2C+Brahmpur+Rajraula+Urf+Nawada%2C+Uttar+Pradesh+201310&output=embed"
                 className="h-full w-full grayscale contrast-[1.05]"
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"

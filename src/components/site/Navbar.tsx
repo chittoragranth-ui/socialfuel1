@@ -35,11 +35,11 @@ export function Navbar() {
         <a href="#top" className={`flex items-center gap-3 leading-none ${scrolled ? "text-foreground" : "text-white"}`}>
           <img
             src={logo}
-            alt="Premium ITC Suites logo"
+            alt="ITC Suites logo"
             className="h-9 w-9 md:h-11 md:w-11 rounded-full object-cover ring-1 ring-white/20"
           />
           <span className="flex flex-col leading-none">
-            <span className="font-serif text-xl md:text-2xl">Premium ITC Suites</span>
+            <span className="font-serif text-xl md:text-2xl">ITC Suites</span>
             <span className="mt-1 text-[10px] tracking-luxury uppercase opacity-70">Greater Noida</span>
           </span>
         </a>
